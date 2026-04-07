@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacts</title>
+    <link rel="stylesheet" href="Asset/CSS/bootstrap.css">
+    <link rel="stylesheet" href="Asset/CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="images cliniques/OIP (15).webp" type="image/x-icon">
+</head>
+<body>
+       <!-- ma navbar -->
+<nav class="navbar bg-primary fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold" href="#">Clinique Jeanis <i class="bi bi-hospital-fill"></i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title display-5" id="offcanvasNavbarLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Clinique Jeanis.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Apropos.html">A propos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="Services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              SERVICES
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Medecins.html">Medecins</a></li>
+              <hr class="dropdown-divider">
+              <li><a class="dropdown-item" href="Contactes.html">CONTACTS</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="Témoingages.html">Témoingages</a></li>
+            </ul>
+          </li>
+        </ul>
+        <a href="Rendez-vous.html" class="btn btn-primary ms-3">Rendez-vous</a>
+        <form class="d-flex mt-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-outline-success" type="submit">Recherche</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+<!-- baniere -->
+<section class="bg-primary text-white text-center p-5">
+  <h1>Contactez-nous</h1>
+  <p>Vous avez une question ou souhaitez prendre rendez-vous ?</p>
+</section>
+
+
+
+<!-- FORMULAIRE -->
+
+
+<section class="py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-7 two">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Nom complet</label>
+            <input type="text" class="form-control" id="name" placeholder="Votre nom" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Votre email" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="message" class="form-label">Votre adresse</label>
+            <input class="form-control" id="name" rows="5" placeholder="Votre adresse" required></input>
+          </div>
+
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Votre message" required></textarea>
+          </div>
+
+          
+
+          <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+
+
+<!-- information des contacts -->
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="row text-center">
+
+      <div class="col-md-4 two">
+        <i class="bi bi-geo-alt fs-2 mb-2"></i>
+        <h5>Adresse</h5>
+        <p>Pointe-Noire, Congo</p>
+      </div>
+
+      <div class="col-md-4 two">
+        <i class="bi bi-telephone fs-2 mb-2"></i>
+        <h5>Téléphone</h5>
+        <p>+242 05 090 7789</p>
+      </div>
+
+      <div class="col-md-4 two">
+        <i class="bi bi-envelope fs-2 mb-2"></i>
+        <h5>Email</h5>
+        <p>contact@jeanis.com</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- CARTE GOOGLE -->
+
+<section class="py-5">
+  <div class="container">
+    <div class="ratio ratio-16x9">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.123456789!2d11.866!3d-4.783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sClinique+Jeanis!5e0!3m2!1sfr!2scd!4v1680000000000" 
+        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- footer -->
+<footer class="bg-dark text-white pt-5 pb-3">
+  <div class="container">
+    <div class="row">
+
+      <!-- Logo + description -->
+      <div class="col-md-4">
+        <h4>Clinique Jeanis</h4>
+        <p>Des soins de qualité pour votre santé et votre bien-être.</p>
+      </div>
+
+      <!-- Liens rapides -->
+      <div class="col-md-4">
+        <h5>Liens rapides</h5>
+        <ul class="list-unstyled">
+          <li><a href="Clinique Jeanis.html" class="text-white text-decoration-none">Accueil</a></li>
+          <li><a href="Services.html" class="text-white text-decoration-none">Services</a></li>
+          <li><a href="Témoingages.html" class="text-white text-decoration-none">Témoignages</a></li>
+          <li><a href="Contactes.html" class="text-white text-decoration-none">Contact</a></li>
+          <li><a href="Medecins.html" class="text-white text-decoration-none">Medecins</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-4">
+        <h5>Contact</h5>
+        <p><i class="bi bi-geo-alt"></i> Pointe-Noire, Congo</p>
+        <p><i class="bi bi-telephone"></i> +242 05 090 7789</p>
+        <p><i class="bi bi-envelope"></i> contact@jeanis.com</p>
+      </div>
+
+    </div>
+
+    <!-- Réseaux sociaux -->
+    <div class="text-center mt-4">
+      <a href="#" class="text-white me-3"><i class="bi bi-facebook">FACEBOOK</i></a>
+      <a href="#" class="text-white me-3"><i class="bi bi-twitter">TWITER</i></a>
+      <a href="#" class="text-white me-3"><i class="bi bi-instagram">INSTGRAM</i></a>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center mt-3">
+      <p class="mb-0">© 2026 Clinique Jeanis - Tous droits réservés</p>
+    </div>
+
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> 
+</body>
+</html>

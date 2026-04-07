@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>temoignages</title>
+     <link rel="stylesheet" href="Asset/CSS/bootstrap.css">
+    <link rel="stylesheet" href="Asset/CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="images cliniques/OIP (15).webp" type="image/x-icon">
+</head>
+<body>
+         <!-- ma navbar -->
+<nav class="navbar bg-primary fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold" href="#">Clinique Jeanis <i class="bi bi-hospital-fill"></i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title display-5" id="offcanvasNavbarLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Clinique Jeanis.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Apropos.html">A propos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="Services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              SERVICES
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Medecins.html">Medecins</a></li>
+              <hr class="dropdown-divider">
+              <li><a class="dropdown-item" href="Contactes.html">CONTACTS</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="Témoingages.html">Témoingages</a></li>
+            </ul>
+          </li>
+        </ul>
+        <a href="Rendez-vous.html" class="btn btn-primary ms-3">Rendez-vous</a>
+        <form class="d-flex mt-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-outline-success" type="submit">Recherche</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<!-- baniere -->
+ <section class="position-relative">
+  <img src="images cliniques/OIP (13).webp" class="w-100" style="height: 350px; object-fit: cover;">
+
+  <div class="position-absolute top-0 start-0 w-100 h-100" 
+       style="background: rgba(0,0,0,0.6);"></div>
+
+  <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
+    <h1>Ils nous font confiance</h1>
+    <p>Découvrez les avis de nos patients satisfaits</p>
+  </div>
+</section>
+
+<!-- patient -->
+<section class="py-5">
+  <div class="container">
+    <div class="row g-4 text-center">
+
+      <div class="col-md-4 one">
+        <div class="card p-4 shadow">
+          <img src="images cliniques/OIP (14).webp" class="rounded-circle mx-auto mb-3" width="80">
+          <p>"Un service exceptionnel, je recommande vivement cette clinique."</p>
+          <h6 class="mt-2">- Jean M.</h6>
+        </div>
+      </div>
+
+      <div class="col-md-4 one">
+        <div class="card p-4 shadow">
+          <img src="images cliniques/télécharger (5).webp" class="rounded-circle mx-auto mb-3" width="80">
+          <p>"Personnel très accueillant et professionnel."</p>
+          <h6 class="mt-2">- Marie K.</h6>
+        </div>
+      </div>
+
+      <div class="col-md-4 one">
+        <div class="card p-4 shadow">
+          <img src="images cliniques/télécharger (6).webp" class="rounded-circle mx-auto mb-3" width="80">
+          <p>"Des soins de qualité, je suis très satisfait."</p>
+          <h6 class="mt-2">- Paul T.</h6>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- carousel -->
+<section class="bg-light py-5">
+  <div class="container text-center">
+    <h2 class="mb-4">Avis de nos patients</h2>
+
+    <div id="carouselTemoignages" class="carousel slide" data-bs-ride="carousel">
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <p class="fs-5">"Une équipe médicale incroyable, merci pour votre professionnalisme."</p>
+          <h6>- Patient satisfait</h6>
+        </div>
+
+        <div class="carousel-item">
+          <p class="fs-5">"Je me suis senti en sécurité et bien pris en charge."</p>
+          <h6>- Patient reconnaissant</h6>
+        </div>
+
+        <div class="carousel-item">
+          <p class="fs-5">"Clinique propre, moderne et très accueillante."</p>
+          <h6>- Client fidèle</h6>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- footer -->
+<footer class="bg-dark text-white pt-5 pb-3">
+  <div class="container">
+    <div class="row">
+
+      <!-- Logo + description -->
+      <div class="col-md-4">
+        <h4>Clinique Jeanis</h4>
+        <p>Des soins de qualité pour votre santé et votre bien-être.</p>
+      </div>
+
+      <!-- Liens rapides -->
+      <div class="col-md-4">
+        <h5>Liens rapides</h5>
+        <ul class="list-unstyled">
+          <li><a href="Clinique Jeanis.html" class="text-white text-decoration-none">Accueil</a></li>
+          <li><a href="Services.html" class="text-white text-decoration-none">Services</a></li>
+          <li><a href="Témoingages.html" class="text-white text-decoration-none">Témoignages</a></li>
+          <li><a href="Contactes.html" class="text-white text-decoration-none">Contact</a></li>
+          <li><a href="Medecins.html" class="text-white text-decoration-none">Medecins</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-4">
+        <h5>Contact</h5>
+        <p><i class="bi bi-geo-alt"></i> Pointe-Noire, Congo</p>
+        <p><i class="bi bi-telephone"></i> +242 05 090 7789</p>
+        <p><i class="bi bi-envelope"></i> contact@jeanis.com</p>
+      </div>
+
+    </div>
+
+    <!-- Réseaux sociaux -->
+    <div class="text-center mt-4">
+      <a href="#" class="text-white me-3"><i class="bi bi-facebook">FACEBOOK</i></a>
+      <a href="#" class="text-white me-3"><i class="bi bi-twitter">TWITER</i></a>
+      <a href="#" class="text-white me-3"><i class="bi bi-instagram">INSTGRAM</i></a>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center mt-3">
+      <p class="mb-0">© 2026 Clinique Jeanis - Tous droits réservés</p>
+    </div>
+
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> 
+</body>
+    
+</body>
+</html>
