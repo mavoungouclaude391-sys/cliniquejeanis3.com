@@ -1,0 +1,25 @@
+PAGE ACUEIL
+.one{
+    transition: 0.3s;
+}
+.one:hover{
+    transform: translateY(-20px);
+}
+.two{
+    transition: 0.5s;
+}
+.two:hover{
+    transform: scale(1.1);
+}
+.btn:hover{
+    transform: rotate(3deg);
+}
+.btn{
+    transform: 0.3s;
+}
+.btn1:hover{
+   transform: rotate(0.5deg); 
+}
+.btn1{
+    transform: 0.3s;
+}
